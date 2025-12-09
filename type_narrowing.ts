@@ -1,4 +1,4 @@
-export { }
+export {}
 function dish(kind: string | number) {
     if (typeof kind === "string") {
         console.log(`Making your favourite ${kind} dish.`)
