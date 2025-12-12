@@ -89,3 +89,4 @@ const cfg: config = {
 }
 cfg.size = 45// this is allowed but :
 //cfg.appName = "Capcut" //? this is not allowed because appname is readonly property
+
