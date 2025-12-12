@@ -1,3 +1,4 @@
+export{}
 // function argumments checking
 function person(name : string,age: number){
     return `Name of the person is ${name} and his age is ${age} years.`
@@ -17,12 +18,12 @@ function studentName(name:string){
 }
 //this is valid but annotating return type will show ts warning
 function teacher(name:string) : string{
-    if(!name){
-        //return null error beacause return type is string
-    }else{
+    // if(!name){
+         //return null; error beacause return type is string
+    // }else{
         return name
     }
-}
+// }
 //void function
 function show():void{
     console.log("The show is ready!")
@@ -46,7 +47,7 @@ region() // this is also a type of optional parameter
 function shoeShop(order: {
     name : string;
     size : number;
-    newBrand:boolean;
+    new:boolean;
 }):number{
     return 45
 }
